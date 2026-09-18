@@ -22,5 +22,24 @@ Messages are content that contains:
 
 ## **STRUCTURE OUTPUT**
 Models can be requested to provide their response in a format matching a given schema.
+
 - **Pydantic:**
- It provides the field validation, description and nested structure. It will help the LLM, in which field it should be place the output. 
+
+    It provides the field validation, description and nested structure. It will help the LLM, in which field it should be place the output.
+
+- **Model With Pydantic structure:** 
+
+    As we want the model to produce output in an structured output then pydantic structure would take care everything.
+
+- **TypeDict**
+
+- **Dataclass:**
+
+    1. Instead of writing a complex class to hold a user's profile info, you can use a dataclass to cleanly hold that state.
+    2. Use a dataclass when your class is built to store and carry information rather than do complex actions.
+
+## **MIDDLEWARE**
+    Explore the middleware more.
+
+## **LNAGGRAPH STATE**
+State is like a bucket where every nodes are stored in the form of variable along with its node information context.
