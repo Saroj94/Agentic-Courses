@@ -43,3 +43,11 @@ Models can be requested to provide their response in a format matching a given s
 
 ## **LNAGGRAPH STATE**
 State is like a bucket where every nodes are stored in the form of variable along with its node information context.
+
+## **Reducer**
+    It helps to keep on appending output messages in the graph state.
+
+
+## **Agentic AI**
+  1. A ChatBot just talks to you.
+  2. A ReAct Agent thinks about your problem, uses tools to find the answer, and then talks to you.
