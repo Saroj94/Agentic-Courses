@@ -51,3 +51,11 @@ State is like a bucket where every nodes are stored in the form of variable alon
 ## **Agentic AI**
   1. A ChatBot just talks to you.
   2. A ReAct Agent thinks about your problem, uses tools to find the answer, and then talks to you.
+
+
+## **MCP (Model Context Protocol)**
+**Transport Protocol**
+1. stdio
+    The transport="stdio" arguments tells the server to use standard input and standard output to receive and respond to tool function calls.
+2. http
+    Server runs as a remote or standalone web service.
