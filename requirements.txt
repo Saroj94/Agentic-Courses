@@ -7,3 +7,5 @@ python_dotenv
 ipykernel
 google-genai
 langchain_tavily
+langchain-mcp-adapters
+mcp
